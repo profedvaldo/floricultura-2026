@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Buquê personalizado</title>
+  <desc id="desc">Buquê com flores cor-de-rosa</desc>
+  <rect width="640" height="480" fill="#ffe7ef"/>
+  <circle cx="92" cy="82" r="54" fill="#fff9f0" opacity=".8"/>
+  <circle cx="548" cy="397" r="72" fill="#dcecdf" opacity=".9"/>
+  <g stroke="#4f7f5f" stroke-width="10" stroke-linecap="round">
+    <line x1="320" y1="210" x2="245" y2="370"/>
+    <line x1="320" y1="210" x2="323" y2="382"/>
+    <line x1="320" y1="210" x2="403" y2="370"/>
+    <line x1="250" y1="246" x2="274" y2="365"/>
+    <line x1="395" y1="245" x2="370" y2="365"/>
+  </g>
+  <g fill="#4f7f5f">
+    <ellipse cx="282" cy="307" rx="42" ry="16" transform="rotate(-28 282 307)"/>
+    <ellipse cx="366" cy="306" rx="42" ry="16" transform="rotate(28 366 306)"/>
+  </g>
+  <g>
+    <g transform="translate(245 174)">
+      <circle r="19" fill="#f6c65b"/><ellipse cy="-30" rx="20" ry="34" fill="#d95f8c"/><ellipse cy="30" rx="20" ry="34" fill="#d95f8c"/><ellipse cx="-30" rx="34" ry="20" fill="#e88dad"/><ellipse cx="30" rx="34" ry="20" fill="#e88dad"/>
+    </g>
+    <g transform="translate(322 130)">
+      <circle r="22" fill="#f6c65b"/><ellipse cy="-35" rx="23" ry="38" fill="#fff0c9"/><ellipse cy="35" rx="23" ry="38" fill="#fff0c9"/><ellipse cx="-35" rx="38" ry="23" fill="#f6c65b"/><ellipse cx="35" rx="38" ry="23" fill="#f6c65b"/>
+    </g>
+    <g transform="translate(403 176)">
+      <circle r="19" fill="#f6c65b"/><ellipse cy="-30" rx="20" ry="34" fill="#d95f8c"/><ellipse cy="30" rx="20" ry="34" fill="#d95f8c"/><ellipse cx="-30" rx="34" ry="20" fill="#e88dad"/><ellipse cx="30" rx="34" ry="20" fill="#e88dad"/>
+    </g>
+  </g>
+  <path d="M240 352 L400 352 L365 438 H275 Z" fill="#234236" opacity=".95"/>
+  <path d="M260 352 H380 C391 352 400 361 400 372 C400 383 391 392 380 392 H260 C249 392 240 383 240 372 C240 361 249 352 260 352Z" fill="#fff9f0"/>
+</svg>

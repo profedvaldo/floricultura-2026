@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Landing page fictícia para uma floricultura local, criada para atividade prática de HTML e CSS." />
+  <title>Flor & Afeto | Floricultura</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topo" id="inicio">
+    <nav class="navbar" aria-label="Menu principal">
+      <a class="marca" href="#inicio" aria-label="Voltar ao início">
+        <img src="img/favicon.svg" alt="Ícone de flor da marca Flor & Afeto" />
+        <span>Flor & Afeto</span>
+      </a>
+
+      <ul class="menu">
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <a class="botao botao-pequeno" href="#contato">Fazer pedido</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="titulo-hero">
+      <div class="hero-conteudo">
+        <p class="etiqueta">Floricultura local • Entregas sob encomenda</p>
+        <h1 id="titulo-hero">Flores que transformam momentos em memórias.</h1>
+        <p class="hero-texto">
+          Buquês, arranjos e cestas especiais preparados com cuidado artesanal para aniversários,
+          formaturas, datas comemorativas e pequenos gestos de carinho.
+        </p>
+        <div class="acoes">
+          <a class="botao" href="#produtos">Ver opções</a>
+          <a class="botao botao-secundario" href="#contato">Solicitar orçamento</a>
+        </div>
+      </div>
+
+      <figure class="hero-imagem">
+        <img src="img/hero-flores.svg" alt="Ilustração de buquê de flores coloridas em vaso decorativo" />
+      </figure>
+    </section>
+
+    <section class="faixa" aria-label="Destaques da floricultura">
+      <article>
+        <strong>Entrega rápida</strong>
+        <span>Pedidos programados na cidade</span>
+      </article>
+      <article>
+        <strong>Arranjos autorais</strong>
+        <span>Composição feita sob medida</span>
+      </article>
+      <article>
+        <strong>Atendimento humano</strong>
+        <span>Orientação para cada ocasião</span>
+      </article>
+    </section>
+
+    <section class="secao" id="produtos" aria-labelledby="titulo-produtos">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">Produtos</p>
+        <h2 id="titulo-produtos">Escolha a flor certa para cada momento</h2>
+        <p>
+          A página apresenta uma vitrine simples, objetiva e comercial, com cards de produtos,
+          chamadas para ação e formulário de contato.
+        </p>
+      </div>
+
+      <div class="grade-produtos">
+        <article class="card-produto">
+          <img src="img/produto-buque.svg" alt="Buquê com flores em tons de rosa" />
+          <div>
+            <h3>Buquês personalizados</h3>
+            <p>Combinações para presentes, aniversários e homenagens especiais.</p>
+            <span class="preco">A partir de R$ 79,90</span>
+          </div>
+        </article>
+
+        <article class="card-produto destaque-card">
+          <img src="img/produto-arranjo.svg" alt="Arranjo de flores em vaso elegante" />
+          <div>
+            <h3>Arranjos decorativos</h3>
+            <p>Peças para recepção, mesa posta, escritórios e eventos de pequeno porte.</p>
+            <span class="preco">A partir de R$ 119,90</span>
+          </div>
+        </article>
+
+        <article class="card-produto">
+          <img src="img/produto-cesta.svg" alt="Cesta especial com flores e presentes" />
+          <div>
+            <h3>Cestas especiais</h3>
+            <p>Cestas com flores, chocolates e cartões para datas comemorativas.</p>
+            <span class="preco">A partir de R$ 149,90</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao secao-dupla" id="sobre" aria-labelledby="titulo-sobre">
+      <div>
+        <p class="etiqueta">Sobre nós</p>
+        <h2 id="titulo-sobre">Uma floricultura pensada para quem valoriza detalhes</h2>
+        <p>
+          A Flor & Afeto é uma floricultura fictícia criada para esta atividade prática. A proposta
+          simula um negócio local que precisa de uma landing page clara, bonita e funcional para
+          converter visitantes em clientes.
+        </p>
+        <p>
+          O objetivo do projeto é praticar estrutura HTML semântica, CSS moderno, responsividade,
+          hierarquia visual, botões, cards e formulário de contato.
+        </p>
+      </div>
+
+      <aside class="caixa-promocao" aria-label="Promoção da semana">
+        <img src="img/promocao.svg" alt="Ilustração de flores em promoção" />
+        <h3>Promoção da semana</h3>
+        <p><strong>Buquê Primavera</strong> com 15% de desconto para pedidos feitos até sexta-feira.</p>
+        <a class="botao botao-claro" href="#contato">Quero reservar</a>
+      </aside>
+    </section>
+
+    <section class="secao fundo-suave" id="depoimentos" aria-labelledby="titulo-depoimentos">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">Depoimentos</p>
+        <h2 id="titulo-depoimentos">Clientes que confiaram no nosso cuidado</h2>
+      </div>
+
+      <div class="depoimentos">
+        <blockquote>
+          <p>“O arranjo ficou lindo e chegou no horário. A apresentação estava impecável.”</p>
+          <cite>— Marina Oliveira</cite>
+        </blockquote>
+        <blockquote>
+          <p>“Fui atendido com muita atenção. Expliquei a ocasião e recebi uma sugestão perfeita.”</p>
+          <cite>— Rafael Martins</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="secao secao-contato" id="contato" aria-labelledby="titulo-contato">
+      <div class="contato-texto">
+        <p class="etiqueta">Contato</p>
+        <h2 id="titulo-contato">Solicite seu orçamento</h2>
+        <p>
+          Preencha os dados abaixo para simular um pedido. O formulário é visual e pode ser usado
+          como base para futuras validações com JavaScript.
+        </p>
+        <ul class="lista-contato">
+          <li>WhatsApp: (44) 99999-0000</li>
+          <li>Instagram: @floreafeto</li>
+          <li>Rua das Orquídeas, 120 — Centro</li>
+        </ul>
+      </div>
+
+      <form class="formulario" action="#" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(44) 99999-0000" required />
+
+        <label for="produto">Tipo de produto</label>
+        <select id="produto" name="produto" required>
+          <option value="">Selecione uma opção</option>
+          <option value="buque">Buquê</option>
+          <option value="arranjo">Arranjo</option>
+          <option value="cesta">Cesta especial</option>
+          <option value="evento">Flores para evento</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte a ocasião, data desejada e preferências de cores."></textarea>
+
+        <button class="botao" type="submit">Enviar solicitação</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p><strong>Flor & Afeto</strong> — Landing page fictícia para atividade de HTML + CSS.</p>
+    <p>Disciplina: Desenvolvimento para Internet • 2026/1</p>
+  </footer>
+</body>
+</html>

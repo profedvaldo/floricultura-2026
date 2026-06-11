@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Arranjo decorativo</title>
+  <desc id="desc">Arranjo com flores em vaso</desc>
+  <rect width="640" height="480" fill="#dcecdf"/>
+  <circle cx="520" cy="88" r="58" fill="#fff9f0" opacity=".8"/>
+  <circle cx="102" cy="402" r="70" fill="#ffe7ef" opacity=".8"/>
+  <g stroke="#4f7f5f" stroke-width="9" stroke-linecap="round" fill="none">
+    <path d="M320 390 C305 270 260 245 210 196"/>
+    <path d="M320 390 C318 270 320 235 323 151"/>
+    <path d="M320 390 C345 270 400 244 460 192"/>
+    <path d="M320 390 C287 285 223 295 162 272"/>
+    <path d="M320 390 C360 290 430 295 501 274"/>
+  </g>
+  <g fill="#4f7f5f" opacity=".9">
+    <ellipse cx="267" cy="270" rx="39" ry="15" transform="rotate(-18 267 270)"/>
+    <ellipse cx="382" cy="270" rx="39" ry="15" transform="rotate(18 382 270)"/>
+    <ellipse cx="310" cy="220" rx="34" ry="14" transform="rotate(33 310 220)"/>
+  </g>
+  <g>
+    <g transform="translate(210 196)"><circle r="18" fill="#f6c65b"/><ellipse cy="-28" rx="18" ry="32" fill="#d95f8c"/><ellipse cy="28" rx="18" ry="32" fill="#d95f8c"/><ellipse cx="-28" rx="32" ry="18" fill="#e88dad"/><ellipse cx="28" rx="32" ry="18" fill="#e88dad"/></g>
+    <g transform="translate(323 151)"><circle r="21" fill="#f6c65b"/><ellipse cy="-34" rx="22" ry="38" fill="#fff9f0"/><ellipse cy="34" rx="22" ry="38" fill="#fff9f0"/><ellipse cx="-34" rx="38" ry="22" fill="#f6c65b"/><ellipse cx="34" rx="38" ry="22" fill="#f6c65b"/></g>
+    <g transform="translate(460 192)"><circle r="18" fill="#f6c65b"/><ellipse cy="-28" rx="18" ry="32" fill="#d95f8c"/><ellipse cy="28" rx="18" ry="32" fill="#d95f8c"/><ellipse cx="-28" rx="32" ry="18" fill="#e88dad"/><ellipse cx="28" rx="32" ry="18" fill="#e88dad"/></g>
+    <g transform="translate(162 272)"><circle r="16" fill="#f6c65b"/><ellipse cy="-24" rx="16" ry="28" fill="#fff0c9"/><ellipse cy="24" rx="16" ry="28" fill="#fff0c9"/><ellipse cx="-24" rx="28" ry="16" fill="#f6c65b"/><ellipse cx="24" rx="28" ry="16" fill="#f6c65b"/></g>
+    <g transform="translate(501 274)"><circle r="16" fill="#f6c65b"/><ellipse cy="-24" rx="16" ry="28" fill="#fff0c9"/><ellipse cy="24" rx="16" ry="28" fill="#fff0c9"/><ellipse cx="-24" rx="28" ry="16" fill="#f6c65b"/><ellipse cx="24" rx="28" ry="16" fill="#f6c65b"/></g>
+  </g>
+  <path d="M245 340 H395 L368 450 H272 Z" fill="#234236"/>
+  <path d="M266 340 H374 C387 340 398 351 398 364 C398 377 387 388 374 388 H266 C253 388 242 377 242 364 C242 351 253 340 266 340Z" fill="#fff9f0"/>
+</svg>

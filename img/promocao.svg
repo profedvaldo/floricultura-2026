@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Promoção de buquê</title>
+  <desc id="desc">Flores com etiqueta de desconto</desc>
+  <rect width="640" height="420" rx="28" fill="#fff9f0"/>
+  <circle cx="110" cy="92" r="56" fill="#ffe7ef"/>
+  <circle cx="532" cy="336" r="66" fill="#dcecdf"/>
+  <g transform="translate(190 80)">
+    <g stroke="#4f7f5f" stroke-width="10" stroke-linecap="round">
+      <line x1="130" y1="150" x2="90" y2="285"/>
+      <line x1="130" y1="150" x2="130" y2="295"/>
+      <line x1="130" y1="150" x2="178" y2="285"/>
+    </g>
+    <g transform="translate(90 115)"><circle r="18" fill="#f6c65b"/><ellipse cy="-28" rx="18" ry="32" fill="#d95f8c"/><ellipse cy="28" rx="18" ry="32" fill="#d95f8c"/><ellipse cx="-28" rx="32" ry="18" fill="#e88dad"/><ellipse cx="28" rx="32" ry="18" fill="#e88dad"/></g>
+    <g transform="translate(130 70)"><circle r="20" fill="#f6c65b"/><ellipse cy="-32" rx="20" ry="36" fill="#fff0c9"/><ellipse cy="32" rx="20" ry="36" fill="#fff0c9"/><ellipse cx="-32" rx="36" ry="20" fill="#f6c65b"/><ellipse cx="32" rx="36" ry="20" fill="#f6c65b"/></g>
+    <g transform="translate(178 115)"><circle r="18" fill="#f6c65b"/><ellipse cy="-28" rx="18" ry="32" fill="#d95f8c"/><ellipse cy="28" rx="18" ry="32" fill="#d95f8c"/><ellipse cx="-28" rx="32" ry="18" fill="#e88dad"/><ellipse cx="28" rx="32" ry="18" fill="#e88dad"/></g>
+    <path d="M60 254 H202 L180 350 H82 Z" fill="#234236"/>
+    <path d="M75 254 H187 C199 254 208 263 208 275 C208 287 199 296 187 296 H75 C63 296 54 287 54 275 C54 263 63 254 75 254Z" fill="#dcecdf"/>
+  </g>
+  <g transform="translate(386 100)">
+    <path d="M0 42 L42 0 H160 C176 0 190 14 190 30 V154 C190 170 176 184 160 184 H42 L0 142 Z" fill="#d95f8c"/>
+    <circle cx="48" cy="48" r="12" fill="#fff9f0"/>
+    <text x="65" y="84" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#fff9f0">15%</text>
+    <text x="62" y="124" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800" fill="#fff9f0">OFF</text>
+  </g>
+</svg>
