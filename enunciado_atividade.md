@@ -38,15 +38,4 @@ A página deve conter:
 - Aplicar responsividade básica.
 - Organizar o código com indentação.
 
-## Rubrica rápida
 
-| Critério | Valor |
-|---|---:|
-| Estrutura HTML semântica | 2,0 |
-| Organização do CSS | 2,0 |
-| Layout visual e estética | 2,0 |
-| Responsividade | 1,5 |
-| Clareza comercial da landing page | 1,0 |
-| Formulário e chamada para ação | 1,0 |
-| Capricho final e evidências | 0,5 |
-| **Total** | **10,0** |
